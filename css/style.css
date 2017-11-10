@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'AlexandraZeferinoOne';
+	src: url('../fonts/AlexandraZeferinoOne.eot');
+	src: url('../fonts/AlexandraZeferinoOne.eot?#iefix')format('embedded-opentype'),
+	url('../fonts/AlexandraZeferinoOne.woff2') format('woff2'),
+	url('../fonts/AlexandraZeferinoOne.woff') format('woff'),
+	url('../fonts/AlexandraZeferinoOne.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 16px;
+	line-height: 1.2;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.title {
+	font-size: 70px;
+	text-align: center;
+	font-family: 'AlexandraZeferinoOne', 'Open Sans', 'Helvetica', sans-serif;
+	color: #ffffff;
+}
